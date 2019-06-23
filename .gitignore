@@ -23,3 +23,9 @@
 hs_err_pid*
 
 /target/
+
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
