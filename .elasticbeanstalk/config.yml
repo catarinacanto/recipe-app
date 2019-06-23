@@ -1,0 +1,24 @@
+branch-defaults:
+  develop:
+    environment: recipe-app-dev
+    group_suffix: null
+environment-defaults:
+  recipe-app-dev:
+    branch: null
+    repository: null
+global:
+  application_name: recipe-app
+  artifact: target/recipe-app-1.0-SNAPSHOT.jar
+  branch: null
+  default_ec2_keyname: aws-eb
+  default_platform: Java 8
+  default_region: us-west-2
+  deploy: null
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  repository: null
+  sc: git
+  workspace_type: Application
